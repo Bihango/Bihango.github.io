@@ -96,7 +96,7 @@
   }
 
   /**
-   * Back to top button - This shit Gas
+   * Back to top button 
    */
   let backtotop = select('.back-to-top')
   if (backtotop) {
@@ -131,7 +131,7 @@
   }, true)
 
   /**
-   * Scroll with ofset on links with a class name .scrollto
+   * Scroll with offset on links 
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
