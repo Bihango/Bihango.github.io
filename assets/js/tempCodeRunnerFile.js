@@ -1,0 +1,2 @@
+
+    let offset = header.offsetHeight
