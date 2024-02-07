@@ -119,6 +119,15 @@
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
+  
+  on('click', '#navbar', function(e) {
+    if (window.innerWidth <= 992) { // mobile breakpoint set to 992px
+      select('#navbar').classList.toggle('navbar-mobile')
+      let navbarToggle = select('.mobile-nav-toggle')
+      navbarToggle.classList.toggle('bi-list')
+      navbarToggle.classList.toggle('bi-x')
+    }
+  })
 
   /**
    * 
